@@ -1,5 +1,5 @@
 #!/bin/bash
-KEYNAME=OreganKey
+KEYNAME=YourSShKeyName
 CONFIGFILE=https://s3-us-west-2.amazonaws.com/testcloudfrontlog/conf/emrconf.json
 LOGURI=s3://testcloudfrontlog/emrlog/
 CODEDIR=s3://testcloudfrontlog/conf
@@ -11,10 +11,10 @@ DATE=20160712
 DATEE=2016-07-12
 PARTDIR=s3://testcloudfrontlog/logpart
 SQOOPFILE=s3://testcloudfrontlog/sqoopfile
-DBHOST=mysqloreganpub.cnvxoaaytntm.us-west-2.rds.amazonaws.com
-JDBCURL=jdbc:mysql://mysqloreganpub.cnvxoaaytntm.us-west-2.rds.amazonaws.com/loganalydb
-DBUSER=masteruser
-DBPASS=Password1!
+DBHOST=your.db.ip.address
+JDBCURL=jdbc:mysql://your.db.ip.address/loganalydb
+DBUSER=yourUserName
+DBPASS=yourPassword
 AWSREGION=us-west-2
 MASTERTYPE=m3.xlarge
 CORETYPE=m3.xlarge
